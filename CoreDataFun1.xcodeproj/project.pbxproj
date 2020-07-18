@@ -3,29 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		C9E8BC4124C2D556009C9909 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E8BC4024C2D556009C9909 /* AppDelegate.swift */; };
 		C9E8BC4324C2D556009C9909 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E8BC4224C2D556009C9909 /* SceneDelegate.swift */; };
-		C9E8BC4524C2D556009C9909 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E8BC4424C2D556009C9909 /* ViewController.swift */; };
-		C9E8BC4824C2D556009C9909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E8BC4624C2D556009C9909 /* Main.storyboard */; };
 		C9E8BC4B24C2D556009C9909 /* CoreDataFun1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9E8BC4924C2D556009C9909 /* CoreDataFun1.xcdatamodeld */; };
 		C9E8BC4D24C2D55A009C9909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E8BC4C24C2D55A009C9909 /* Assets.xcassets */; };
 		C9E8BC5024C2D55A009C9909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E8BC4E24C2D55A009C9909 /* LaunchScreen.storyboard */; };
+		C9E8BC5924C2D6DF009C9909 /* SparkUI in Frameworks */ = {isa = PBXBuildFile; productRef = C9E8BC5824C2D6DF009C9909 /* SparkUI */; };
+		C9E8BC5D24C2D6F9009C9909 /* CoreDataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E8BC5A24C2D6F9009C9909 /* CoreDataError.swift */; };
+		C9E8BC5E24C2D6F9009C9909 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E8BC5B24C2D6F9009C9909 /* ViewController.swift */; };
+		C9E8BC5F24C2D6F9009C9909 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E8BC5C24C2D6F9009C9909 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C9E8BC3D24C2D556009C9909 /* CoreDataFun1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataFun1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E8BC4024C2D556009C9909 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9E8BC4224C2D556009C9909 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C9E8BC4424C2D556009C9909 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C9E8BC4724C2D556009C9909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9E8BC4A24C2D556009C9909 /* CoreDataFun1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataFun1.xcdatamodel; sourceTree = "<group>"; };
 		C9E8BC4C24C2D55A009C9909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9E8BC4F24C2D55A009C9909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9E8BC5124C2D55A009C9909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E8BC5A24C2D6F9009C9909 /* CoreDataError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataError.swift; sourceTree = "<group>"; };
+		C9E8BC5B24C2D6F9009C9909 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../CoreDataFun1Resources/ViewController.swift; sourceTree = "<group>"; };
+		C9E8BC5C24C2D6F9009C9909 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E8BC5924C2D6DF009C9909 /* SparkUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +64,9 @@
 			children = (
 				C9E8BC4024C2D556009C9909 /* AppDelegate.swift */,
 				C9E8BC4224C2D556009C9909 /* SceneDelegate.swift */,
-				C9E8BC4424C2D556009C9909 /* ViewController.swift */,
-				C9E8BC4624C2D556009C9909 /* Main.storyboard */,
+				C9E8BC5C24C2D6F9009C9909 /* CollectionViewCell.swift */,
+				C9E8BC5A24C2D6F9009C9909 /* CoreDataError.swift */,
+				C9E8BC5B24C2D6F9009C9909 /* ViewController.swift */,
 				C9E8BC4C24C2D55A009C9909 /* Assets.xcassets */,
 				C9E8BC4E24C2D55A009C9909 /* LaunchScreen.storyboard */,
 				C9E8BC5124C2D55A009C9909 /* Info.plist */,
@@ -86,6 +91,9 @@
 			dependencies = (
 			);
 			name = CoreDataFun1;
+			packageProductDependencies = (
+				C9E8BC5824C2D6DF009C9909 /* SparkUI */,
+			);
 			productName = CoreDataFun1;
 			productReference = C9E8BC3D24C2D556009C9909 /* CoreDataFun1.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +122,9 @@
 				Base,
 			);
 			mainGroup = C9E8BC3424C2D556009C9909;
+			packageReferences = (
+				C9E8BC5724C2D6DF009C9909 /* XCRemoteSwiftPackageReference "SparkUI" */,
+			);
 			productRefGroup = C9E8BC3E24C2D556009C9909 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +141,6 @@
 			files = (
 				C9E8BC5024C2D55A009C9909 /* LaunchScreen.storyboard in Resources */,
 				C9E8BC4D24C2D55A009C9909 /* Assets.xcassets in Resources */,
-				C9E8BC4824C2D556009C9909 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9E8BC4524C2D556009C9909 /* ViewController.swift in Sources */,
+				C9E8BC5E24C2D6F9009C9909 /* ViewController.swift in Sources */,
 				C9E8BC4124C2D556009C9909 /* AppDelegate.swift in Sources */,
+				C9E8BC5F24C2D6F9009C9909 /* CollectionViewCell.swift in Sources */,
+				C9E8BC5D24C2D6F9009C9909 /* CoreDataError.swift in Sources */,
 				C9E8BC4B24C2D556009C9909 /* CoreDataFun1.xcdatamodeld in Sources */,
 				C9E8BC4324C2D556009C9909 /* SceneDelegate.swift in Sources */,
 			);
@@ -151,14 +163,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C9E8BC4624C2D556009C9909 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9E8BC4724C2D556009C9909 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C9E8BC4E24C2D55A009C9909 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -342,6 +346,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C9E8BC5724C2D6DF009C9909 /* XCRemoteSwiftPackageReference "SparkUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rebeloper/SparkUI.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.11.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9E8BC5824C2D6DF009C9909 /* SparkUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9E8BC5724C2D6DF009C9909 /* XCRemoteSwiftPackageReference "SparkUI" */;
+			productName = SparkUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		C9E8BC4924C2D556009C9909 /* CoreDataFun1.xcdatamodeld */ = {
